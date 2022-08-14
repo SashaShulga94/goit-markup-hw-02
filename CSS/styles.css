@@ -21,7 +21,7 @@ img {
 }
 
 :root {
-  --primary-font: "Roboto Regular", sans-serif;
+  --primary-font: "Roboto", sans-serif;
   --primary-text-color-theme-dark: #212121;
   --secondary-color-theme-gray: #757575;
   --primary-text-color-theme-light: #ffffff;
@@ -186,7 +186,7 @@ body {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 63;
+  line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
   background: var(--primary-background-color-theme-light);
