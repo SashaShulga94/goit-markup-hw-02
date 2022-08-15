@@ -36,6 +36,8 @@ body {
   font-family: var(--primary-font);
   background-color: var(--primary-text-color-theme-light);
   color: var(--primary-text-color-theme-dark);
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
 .visually-hidden {
   position: absolute;
@@ -55,25 +57,26 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color-theme-dark);
 }
 .web {
   color: var(--accent-color);
 }
+.studio-footer {
+  color: var(--primary-text-color-theme-light);
+}
 .link {
-  font-family: "Roboto";
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color-theme-dark);
 }
+.current {
+  color: var(--accent-color);
+}
 .email,
 .phone {
-  font-family: "Roboto";
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-color-theme-gray);
@@ -119,13 +122,10 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .features-text {
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--secondary-color-theme-gray);
 }
 /* what-we-do */
@@ -134,7 +134,6 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 /* team */
 .our-team {
@@ -148,20 +147,17 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 .our-teammate {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 .our-team-position {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--secondary-color-theme-gray);
 }
 /* FOOTER!!! */
@@ -169,16 +165,12 @@ body {
   background: var(--secondary-background-color-theme-light);
 }
 .address {
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--primary-text-color-theme-light);
 }
 .email-footer,
 .phone-footer {
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color-4footer-gray);
 }
 /* portfolio */
@@ -208,6 +200,5 @@ body {
 .e-type {
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.03em;
   color: var(--secondary-color-theme-gray);
 }
